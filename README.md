@@ -1,6 +1,7 @@
 # repsonsive_design_
 
 task project responsive web design week 2 day 3
+
 creating a responsive design cv task using html and css
 
 challenges:
