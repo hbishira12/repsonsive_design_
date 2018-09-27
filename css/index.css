@@ -1,0 +1,84 @@
+header, section {
+	display: inline-block;
+}
+
+.left {
+	float: left;
+	width: 35%;
+}
+
+.right {
+	float: right;
+	width: 60%;
+}
+
+#headshot {
+	display: block;
+	text-align: center;
+	margin: 50px auto 0;
+	border: 2px solid #E13A63;
+	transform: rotate(90deg);
+}
+
+.experience {
+	display: inline-block;
+	clear: both;
+	margin-top: 30px;
+	text-align: center;
+}
+
+header, .experience {
+	border: 2px solid #E13A63;
+	padding: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+
+	#navbar {
+		width: 100%;
+	}
+
+	.main-content {
+		margin-left: 20px;
+	}
+	.left {
+		float: none;
+    width:auto;
+		text-align: left;
+	}
+
+	.right {
+		float: none;
+    width:auto;
+		text-align: left;
+	}
+	#headshot {
+   border: solid white 1px;
+	 transform: rotate(90deg);
+	 margin-right: 300px;
+	 margin-top: 20px;
+	 text-align: left;
+ }
+ .experience {
+ 	display: block;
+ 	clear: both;
+ 	margin-top: 30px;
+	text-align: left;
+
+ }
+ .home_about_ {
+
+ }
+ header, .experience {
+ 	border: 2px solid white;
+ 	padding: 10px;
+	text-align: left;
+ }
+ h1 {
+   color: red;
+	 text-align: left;
+ }
+ h4 {
+   color: red;
+	 text-align: left;
+ }
